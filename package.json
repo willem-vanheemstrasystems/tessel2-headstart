@@ -1,0 +1,23 @@
+{
+  "name": "tessel2-headstart",
+  "version": "1.0.0",
+  "description": "Tessel 2 Headstart",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install -g node-gyp tessel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willem-vanheemstrasystems/tessel2-headstart.git"
+  },
+  "author": "Willem van Heemstra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willem-vanheemstrasystems/tessel2-headstart/issues"
+  },
+  "homepage": "https://github.com/willem-vanheemstrasystems/tessel2-headstart#readme",
+  "dependencies": {
+    "ambient-attx4": "^0.2.6"
+  }
+}
