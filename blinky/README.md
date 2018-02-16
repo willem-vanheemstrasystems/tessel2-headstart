@@ -20,4 +20,19 @@ npm ts2-cli -v
 
 It should give you e.g.: 3.10.10
 
+## Find your Tessel
+
+Plug in your Tessel over USB (use Tessel’s microUSB port, between the USB ports and the module ports).
+
+It takes ~30s to finish booting up (track the issue [here](https://github.com/tessel/t2-firmware/issues/117)); lights will flash during this process.
+
+Run: ```t2 list```
+
+You should be able to see your Tessel (and any other Tessels connected to the same network as your computer):
+
+```javascript
+INFO Searching for nearby Tessels...
+  USB Tessel-02A397FA63A5
+```
+
 
