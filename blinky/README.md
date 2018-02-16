@@ -49,3 +49,25 @@ If you run t2 list again, you’ll see your Tessel has changed its name:
 INFO Searching for nearby Tessels...
   USB Bulbasaur
 ```
+
+## Hello (Physical) World!
+
+Blinking some lights is the “Hello World” of hardware. Let’s make those LEDs built into Tessel 2 dance for us.
+
+In your command line, make a folder for your Tessel code, then initialize a Tessel project in that folder by running each of the following commands in the terminal:
+
+```mkdir blinky```
+
+```cd blinky```
+
+```t2 init```
+
+Have a look at [the CLI docs](https://tessel.gitbooks.io/t2-docs/content/API/CLI.html#starting-projects) to explore the ```t2 init``` command.
+
+Great! Now you’re set up to run code on Tessel. Your “blinky” folder now contains:
+
+- a “package.json” with some metadata Node uses for your project
+- a “.tesselinclude” file which the T2 CLI uses to optimize bundle size
+- an entrypoint file called “index.js”
+
+You can open and look at any of the files to learn more about them. But right now we’re most interested in index.js.
