@@ -78,3 +78,8 @@ to run your code in Tessel’s RAM.
 
 Look at your Tessel! The blue and green LEDs on your Tessel’s LED panel should blink back and forth.
 
+Press CTRL + C to stop.
+
+Tired of the blinking lights? ```t2 erase``` will clear the saved code.
+
+Learn more t2 commands by ```running t2 -h``` or looking at the [T2 CLI docs](https://tessel.io/docs/cli).
