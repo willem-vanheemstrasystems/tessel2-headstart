@@ -37,4 +37,15 @@ INFO Searching for nearby Tessels...
   USB Tessel-02A397FA63A5
 ```
 
+Yay, you found it! At this point, your Tessel is operational and in communication with your computer.
 
+Bonus: give your Tessel a name, like “Frank” or “Bulbasaur”:
+
+```t2 rename <name>```
+
+If you run t2 list again, you’ll see your Tessel has changed its name:
+
+```javascript
+INFO Searching for nearby Tessels...
+  USB Bulbasaur
+```
