@@ -69,3 +69,6 @@ In your command line, ```t2 run servo.js``` Watch your servo move!
 To see what else you can do with the servo module, see the [module docs](https://github.com/tessel/servo-pca9685) here.
 
 If you run into any issues you can check out the [servo forums](https://forums.tessel.io/c/modules/servo).
+
+Have a look at the [Robot Arm](https://tessel.hackster.io/esvit/robot-arm-controlling-with-javascript-bdfeeb) that you can control with JavaScript using the Tessel2 and the servo module for Tessel2.
+
