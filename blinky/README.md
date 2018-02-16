@@ -68,6 +68,13 @@ Great! Now you’re set up to run code on Tessel. Your “blinky” folder now c
 
 - a “package.json” with some metadata Node uses for your project
 - a “.tesselinclude” file which the T2 CLI uses to optimize bundle size
-- an entrypoint file called “index.js”
+- an entrypoint file called “index.js”. It contains the code to make the blue and green LEDs blink.
 
-You can open and look at any of the files to learn more about them. But right now we’re most interested in index.js.
+In your command line, enter
+
+```t2 run index.js```
+
+to run your code in Tessel’s RAM.
+
+Look at your Tessel! The blue and green LEDs on your Tessel’s LED panel should blink back and forth.
+
