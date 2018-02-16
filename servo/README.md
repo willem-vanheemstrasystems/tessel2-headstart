@@ -66,6 +66,6 @@ Save the file.
 
 In your command line, ```t2 run servo.js``` Watch your servo move!
 
-To see what else you can do with the servo module, see the [module docs](To see what else you can do with the servo module, see the module docs here.) here.
+To see what else you can do with the servo module, see the [module docs](https://github.com/tessel/servo-pca9685) here.
 
 If you run into any issues you can check out the [servo forums](https://forums.tessel.io/c/modules/servo).
